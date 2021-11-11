@@ -6,6 +6,7 @@ use App\Services\CriadorDeSerie;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
+use App\Serie;
 
 class CriadorDeSerieTest extends TestCase
 {
