@@ -12,6 +12,11 @@
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-2 justify-content-between">
+        <a class="navbar-brand" href="{{ route('listar_series') }}">Home</a>
+        <a href="/sair" class="text-danger">Sair</a>
+    </nav>
+
     <div class="container">
         <div class="jumbotron">
             <h1>@yield('cabecalho')</h1>
