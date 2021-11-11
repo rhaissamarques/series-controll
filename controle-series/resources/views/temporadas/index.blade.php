@@ -12,7 +12,7 @@ Temporadas de {{ $serie->nome }}
             Temporada {{ $temporada->numero }}
         </a>
         <span class="badge badge-secondary">
-            {{ $temporada->episodios->count() }}
+            0/{{ $temporada->episodios->count() }}
         </span>
     </li>
     @endforeach
