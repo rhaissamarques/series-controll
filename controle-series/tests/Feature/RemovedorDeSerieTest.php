@@ -15,7 +15,8 @@ class RemovedorDeSerieTest extends TestCase
 
     /** @var Serie */
     private $serie;
-    public function serUp(): void
+
+    protected function setUp(): void
     {
         parent::setUp();
         $criadorDeSerie = new CriadorDeSerie();
